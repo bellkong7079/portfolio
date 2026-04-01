@@ -1,157 +1,111 @@
-const logotext = "JOHN";
+const logotext = "YJB";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "윤종빈 | Portfolio",
+    description: "풀스택 개발자 윤종빈의 포트폴리오입니다.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "안녕하세요, 저는 윤종빈입니다",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Full-Stack Developer",
+        second: "React & Node.js Developer",
+        third: "Java & Spring Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "단순히 작동하는 코드를 넘어, 왜 이렇게 설계했는가를 설명할 수 있는 개발자를 목표로 합니다.",
+    your_img_url: "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "저에 대해",
+    aboutme: "유통·설비 분야에서 사회생활을 시작했지만, 개발의 가능성을 발견하고 과감히 전환했습니다. React, Node.js 기반 풀스택 개발과 Java/Spring Boot 백엔드 개발을 학습하며, 3개의 프로젝트를 완성했습니다. 장안대학교 창업대회 1등 수상 경험처럼, 아이디어를 실행으로 옮기는 것을 즐깁니다. DB 설계부터 REST API, 실시간 채팅, ETL 자동화까지 풀스택 흐름 전반을 이해하고 있습니다.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "풀스택 & 자동화 과정 수료",
+        where: "㈜글로벌아카데미",
+        date: "2025.11 - 2026.04",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "FT 설치제어 유지보수",
+        where: "영전엔지니어링",
+        date: "2023.03 - 2025.01",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "자재관리 및 생산",
+        where: "㈜힘펠",
+        date: "2019.07 - 2021.07",
+    },
+    {
+        jobtitle: "창업대회 1등 수상",
+        where: "장안대학교",
+        date: "2022.11",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+    { name: "Spring", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+    { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "HTML5", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { name: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+    { name: "MariaDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+    { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+    { name: "Vite", logo: "https://vitejs.dev/logo.svg" },
+    { name: "DBeaver", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg" },
+];
+
+const services = [
+    {
+        title: "Frontend Development",
+        description: "React 19 기반 SPA 개발. Context API 전역 상태 관리, Socket.IO 실시간 채팅, Chart.js 데이터 시각화, 반응형 UI 구현.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "Backend Development",
+        description: "Node.js + Express 5 REST API 설계. Spring Boot 기반 ERP 시스템 단독 개발 경험. JWT 인증, 트랜잭션 설계, 역할 기반 접근제어 구현.",
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "Data & Automation",
+        description: "Python + Pandas ETL 파이프라인 구축. Brity RPA 자동화. 1만 건 K-IFRS 재무제표 자동 생성 및 SMTP 이메일 발송까지 E2E 파이프라인 완성.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const dataportfolio = [
+    {
+        img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400",
+        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | DB설계, JWT인증, 장바구니, 카테고리)",
+        link: "https://github.com/bellkong7079/First-project.git",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400",
+        description: "KISETSU — 도매 패션 이커머스 (1인 솔로 · 2주 | 고객·관리자 기능 16개 단독 완성)",
+        link: "https://github.com/bellkong7079/solo-project.git",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400",
+        description: "재무 자동화 — Python & RPA (팀장 · 11일 | 1만건 ETL → K-IFRS → 메일 자동발송)",
+        link: "https://github.com/bellkong7079",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "jongbin344@gmail.com",
+    YOUR_FONE: "010-5742-7079",
+    description: "새로운 기회나 협업에 열려 있습니다. 언제든지 연락해 주세요!",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    github: "https://github.com/bellkong7079",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
 };
+
 export {
     meta,
     dataabout,

@@ -11,6 +11,39 @@
     border-color: var(--text-color) !important;
 }
 
+.skill-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 16px 0;
+}
+
+.skill-logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 72px;
+    transition: transform 0.2s;
+}
+
+.skill-logo-item:hover {
+    transform: translateY(-4px);
+}
+
+.skill-logo-img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.skill-logo-name {
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text-color);
+}
+
 .progress-title {
     font-size: 16px;
     font-weight: 700;

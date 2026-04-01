@@ -37,7 +37,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">경력 / 이력</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -57,31 +57,22 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4">기술 스택</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
-                  </div>
+            <div className="skill-logos">
+              {skills.map((data, i) => (
+                <div className="skill-logo-item" key={i}>
+                  <img src={data.logo} alt={data.name} className="skill-logo-img" />
+                  <span className="skill-logo-name">{data.name}</span>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">역량</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
