@@ -70,7 +70,7 @@ const services = [
     },
     {
         title: "Data & Automation",
-        description: "Python + Pandas ETL 파이프라인 구축. Brity RPA 자동화. 1만 건 K-IFRS 재무제표 자동 생성 및 SMTP 이메일 발송까지 E2E 파이프라인 완성.",
+        description: "E2E 자동화 아키텍처 설계 (팀장). Python + BrityRPA 연계 구조 설계, ETL→데이터마트→Excel 리포트 전체 파이프라인 구축. RPA로 Python 스크립트 실행·결과 수집 자동화, Excel 보고서·그래프·레이아웃 자동 구성. 재무 데이터 정합성 검증 및 프로젝트 기술 의사결정 리딩.",
     },
 ];
 
@@ -87,7 +87,7 @@ const dataportfolio = [
     },
     {
         img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400",
-        description: "재무 자동화 — Python & RPA (팀장 · 11일 | 1만건 ETL → K-IFRS → 메일 자동발송)",
+        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | E2E 아키텍처 설계, ETL→데이터마트→Excel 파이프라인 구축, RPA 자동화 구현, 데이터 정합성 검증 리딩)",
         link: "https://github.com/bellkong7079",
     },
 ];
