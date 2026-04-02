@@ -2,6 +2,16 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
+.profile_img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0 auto;
+}
+
 .table td,
 .table th {
     color: var(--text-color);

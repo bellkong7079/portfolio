@@ -9,6 +9,7 @@ import {
   skills,
   services,
 } from "../../content_option";
+import profileImg from "../../assets/images/profile.jpg";
 
 export const About = () => {
   return (
@@ -26,11 +27,16 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+          <Col lg="5" className="d-flex align-items-center">
+            <img
+              src={profileImg}
+              alt="윤종빈"
+              className="profile_img"
+            />
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
+              <h3 className="color_sec py-4">{dataabout.title}</h3>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
