@@ -43,7 +43,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">경력 / 이력</h3>
+            <h3 className="color_sec py-4">경력 / 수상이력</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
