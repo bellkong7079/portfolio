@@ -103,7 +103,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/bellkong7079",
-    linkedin: "https://linkedin.com",
+    instagram: "https://www.instagram.com/jongbin_97/",
 };
 
 export {
