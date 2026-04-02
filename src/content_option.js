@@ -1,6 +1,6 @@
 const logotext = "YJB";
 const meta = {
-    title: "윤종빈 | Portfolio",
+    title: "윤종빈 포트폴리오",
     description: "풀스택 개발자 윤종빈의 포트폴리오입니다.",
 };
 
