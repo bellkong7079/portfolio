@@ -60,13 +60,15 @@ const skills = {
         { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
         { name: "Vite", logo: "https://vitejs.dev/logo.svg" },
         { name: "DBeaver", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg" },
+        { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { name: "Eclipse", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" },
     ],
     database: [
         { name: "MariaDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
         { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
     ],
     etc: [
-        { name: "Brity RPA", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+        { name: "Brity RPA", logo: require("./assets/images/brity-rpa.png") },
     ],
 };
 
