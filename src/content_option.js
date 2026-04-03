@@ -43,21 +43,31 @@ const worktimeline = [
     },
 ];
 
-const skills = [
-    { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-    { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-    { name: "Spring", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
-    { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { name: "HTML5", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-    { name: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-    { name: "MariaDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-    { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
-    { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-    { name: "Vite", logo: "https://vitejs.dev/logo.svg" },
-    { name: "DBeaver", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg" },
-];
+const skills = {
+    frontend: [
+        { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        { name: "HTML5", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+        { name: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+    ],
+    backend: [
+        { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+        { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    ],
+    framework: [
+        { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { name: "Spring", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+        { name: "Vite", logo: "https://vitejs.dev/logo.svg" },
+    ],
+    database: [
+        { name: "MariaDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+        { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+    ],
+    tools: [
+        { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "DBeaver", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/DBeaver_logo.svg" },
+    ],
+};
 
 const services = [
     {
@@ -77,17 +87,17 @@ const services = [
 const dataportfolio = [
     {
         img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400",
-        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | DB설계, JWT인증, 장바구니, 카테고리)",
+        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | React 19, Vite, Express.js, MariaDB | DB설계, JWT인증, 장바구니, 카테고리)",
         link: "https://github.com/bellkong7079/First-project.git",
     },
     {
         img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400",
-        description: "KISETSU — 도매 패션 이커머스 (1인 솔로 · 2주 | 고객·관리자 기능 16개 단독 완성)",
+        description: "KISETSU — 도매 패션 이커머스 (1인 솔로 · 2주 | React 18, Vite, Express.js, MariaDB, Socket.io, Chart.js, JWT | 고객·관리자 기능 16개 단독 완성)",
         link: "https://github.com/bellkong7079/solo-project.git",
     },
     {
         img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400",
-        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | E2E 아키텍처 설계, ETL→데이터마트→Excel 파이프라인 구축, RPA 자동화 구현, 데이터 정합성 검증 리딩)",
+        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | Python, Openpyxl, Brity RPA, SMTP | E2E 아키텍처 설계, Python↔RPA 연동 구조 설계, 대시보드 시각화 및 데이터 정합성 검증, Excel 보고서 메일 자동 발송)",
         link: "https://github.com/bellkong7079",
     },
 ];

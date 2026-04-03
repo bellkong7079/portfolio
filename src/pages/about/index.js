@@ -63,17 +63,28 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">기술 스택</h3>
+            <h3 className="color_sec py-4">기술스택</h3>
           </Col>
           <Col lg="7">
-            <div className="skill-logos">
-              {skills.map((data, i) => (
-                <div className="skill-logo-item" key={i}>
-                  <img src={data.logo} alt={data.name} className="skill-logo-img" />
-                  <span className="skill-logo-name">{data.name}</span>
+            {[
+              { label: "프론트엔드", key: "frontend" },
+              { label: "백엔드", key: "backend" },
+              { label: "프레임워크", key: "framework" },
+              { label: "데이터베이스", key: "database" },
+              { label: "툴", key: "tools" },
+            ].map(({ label, key }) => (
+              <div className="skill-category" key={key}>
+                <h6 className="skill-category-title">{label}</h6>
+                <div className="skill-logos">
+                  {skills[key].map((data, i) => (
+                    <div className="skill-logo-item" key={i}>
+                      <img src={data.logo} alt={data.name} className="skill-logo-img" />
+                      <span className="skill-logo-name">{data.name}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </Col>
         </Row>
         <Row className="sec_sp">
