@@ -176,11 +176,11 @@ export const Main = () => {
             </Col>
             <Col lg="7">
               {[
-                { label: "프론트엔드", key: "frontend" },
-                { label: "백엔드", key: "backend" },
+                { label: "개발언어", key: "language" },
                 { label: "프레임워크", key: "framework" },
+                { label: "개발툴", key: "devtools" },
                 { label: "데이터베이스", key: "database" },
-                { label: "툴", key: "tools" },
+                { label: "기타", key: "etc" },
               ].map(({ label, key }) => (
                 <div className="skill-category" key={key}>
                   <h6 className="skill-category-title">{label}</h6>
