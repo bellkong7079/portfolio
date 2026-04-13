@@ -77,8 +77,8 @@ const services = [
 const dataportfolio = [
     {
         img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400",
-        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | DB설계, JWT인증, 장바구니, 카테고리)",
-        link: "https://github.com/bellkong7079/First-project.git",
+        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | React 19, Vite, Express.js, MariaDB | DB설계, JWT인증, 장바구니, 카테고리)",
+        link: "https://github.com/bellkong7079/First-project/tree/develop",
     },
     {
         img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400",
@@ -87,8 +87,8 @@ const dataportfolio = [
     },
     {
         img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400",
-        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | E2E 아키텍처 설계, ETL→데이터마트→Excel 파이프라인 구축, RPA 자동화 구현, 데이터 정합성 검증 리딩)",
-        link: "https://github.com/bellkong7079",
+        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | Python, Openpyxl, Brity RPA, SMTP | E2E 아키텍처 설계, Python↔RPA 연동 구조 설계, 대시보드 시각화 및 데이터 정합성 검증, Excel 보고서 메일 자동 발송)",
+        link: "https://canva.link/y2rmqi94x0yjusg",
     },
 ];
 
