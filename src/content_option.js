@@ -103,6 +103,11 @@ const dataportfolio = [
         description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | Python, Openpyxl, Brity RPA, SMTP | E2E 아키텍처 설계, Python↔RPA 연동 구조 설계, 대시보드 시각화 및 데이터 정합성 검증, Excel 보고서 메일 자동 발송)",
         link: "https://canva.link/y2rmqi94x0yjusg",
     },
+    {
+        img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+        description: "통합 ERP 시스템 — Spring Boot & JSP (팀 · 6주 | Java 17, Spring Boot 3.4.1, MyBatis, MariaDB, Spring Security, Python OCR | 인사·근태·재고·창고·BOM·작업지시·주문·판매·재무 등 17개 모듈 풀스택, 다중 창고 지원, OCR 자동화, Swagger API 문서화)",
+        link: "https://github.com/ArLyehee/MainProjectERP/tree/jsp123",
+    },
 ];
 
 const contactConfig = {
