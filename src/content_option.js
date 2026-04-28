@@ -77,18 +77,23 @@ const services = [
 const dataportfolio = [
     {
         img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400",
-        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | DB설계, JWT인증, 장바구니, 카테고리)",
-        link: "https://github.com/bellkong7079/First-project.git",
+        description: "AuRa — 향수 이커머스 쇼핑몰 (4인 팀 · 3주 | React 19, Vite, Express.js, MariaDB | DB설계, JWT인증, 장바구니, 카테고리)",
+        link: "https://github.com/bellkong7079/First-project/tree/develop",
     },
     {
         img: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400",
-        description: "KISETSU — 도매 패션 이커머스 (1인 솔로 · 2주 | 고객·관리자 기능 16개 단독 완성)",
+        description: "KISETSU — 도매 패션 이커머스 (1인 솔로 · 2주 | React 18, Vite, Express.js, MariaDB, Socket.io, Chart.js, JWT | 고객·관리자 기능 16개 단독 완성)",
         link: "https://github.com/bellkong7079/solo-project.git",
     },
     {
         img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400",
-        description: "재무 자동화 — Python & RPA (팀장 · 11일 | 1만건 ETL → K-IFRS → 메일 자동발송)",
-        link: "https://github.com/bellkong7079",
+        description: "재무제표 자동화 — Python & Brity RPA (팀장 · 11일 | Python, Openpyxl, Brity RPA, SMTP | E2E 아키텍처 설계, Python↔RPA 연동 구조 설계, 대시보드 시각화 및 데이터 정합성 검증, Excel 보고서 메일 자동 발송)",
+        link: "https://canva.link/y2rmqi94x0yjusg",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
+        description: "통합 ERP 시스템 — Spring Boot & JSP (팀 · 6주 | Java 17, Spring Boot 3.4.1, MyBatis, MariaDB, Spring Security, Python OCR | 인사·근태·재고·창고·BOM·작업지시·주문·판매·재무 등 17개 모듈 풀스택, 다중 창고 지원, OCR 자동화, Swagger API 문서화)",
+        link: "https://github.com/ArLyehee/MainProjectERP/tree/jsp123",
     },
 ];
 
